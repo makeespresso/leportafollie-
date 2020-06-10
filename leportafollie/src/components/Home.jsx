@@ -1,51 +1,14 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-
 class Home extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
-    componentWillMount() {
-
-    }
-
-    componentDidMount() {
-
-    }
-
-    componentWillReceiveProps(nextProps) {
-
-    }
-
-    shouldComponentUpdate(nextProps, nextState) {
-
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-
-    }
-
-    componentWillUnmount() {
-
-    }
-
     render() {
         return (
-            <div>
-
+            <div id="GeneralArea">
+                    <br></br>
+                    <h1>ana benedict</h1>
+                    <p><i>well, this is my work.</i></p>
             </div>
         );
     }
 }
-
-Home.propTypes = {
-
-};
 
 export default Home;
