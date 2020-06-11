@@ -7,8 +7,11 @@ export default class DesignHeroImg extends Component {
         <div className="HeroDiv">
             <div className="z-index">
             <div className="HeroImg1"></div>
-            <div className="HeroImg2 Texth1"><h1>Projects</h1></div>
+            <div className="HeroImg2 Texth1">
+            {/* <h1>Projects</h1> */}
+            </div>
             <div className="HeroImg3"></div>
+            <div className="HeroImg4"></div>
             </div>
             </div>
 </>
