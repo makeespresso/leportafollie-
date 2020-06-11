@@ -13,7 +13,9 @@
 #Navbar{
   height: 4rem;
   /* background-color: #E3F6F5; */
-  background-color: transparent;
+  /* background-color: #F7F8F2; */
+  background: rgba(247, 248, 242, 0.08);
+  /* background: transparent; */
   width: 100vw;
   color: #262626;
   display: flex;
@@ -265,7 +267,7 @@ width: 90%;
 .HeroDiv{
   height: 90vh;
   width: 100vw;
-  color:#FCFBF6;
+  color:#F7F8F2;
   background-color: #3E4435;  
   display: flex;
   justify-content: center;
@@ -317,7 +319,7 @@ position: relative;
 background-image: url('./img/HeroImg4.jpg');
 background-size: cover;
 background-repeat: no-repeat;
-border: #FCFBF6 1.3em solid;
+border: #F7F8F2 1.3em solid;
 transform: rotate(-20deg);
 margin-top: 3rem;
 -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
@@ -337,17 +339,20 @@ align-items: center;
 background-image: url('./img/HeroImg1.jpg');
 background-size: cover;
 background-repeat: no-repeat;
-border: #FCFBF6 1.3em solid;
+border: #F7F8F2 1.3em solid;
 -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
     filter: grayscale(70%);
 }
 
 .Texth1 h1{
-  text-transform: uppercase;
-  font-size: 4em;
-  margin-left: -30rem;
+  text-transform: capitalize;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 5em;
+  letter-spacing: 1rem;
+  margin-left: 28rem;
   color: #DBA089;
   z-index: 100;
+  position: relative;
 }
 
 .HeroImg3{
@@ -360,7 +365,7 @@ margin-top: 13rem;
 background-image: url('./img/HeroImg2.jpg');
 background-size: cover;
 background-repeat: no-repeat;
-border: #FCFBF6 1.3em solid;
+border: #F7F8F2 1.3em solid;
 transform: rotate(20deg);
 -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
 filter: grayscale(70%); 
@@ -378,7 +383,7 @@ filter: grayscale(70%);
   background-image: url('./img/HeroImg3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  border: #FCFBF6 1.3em solid;
+  border: #F7F8F2 1.3em solid;
   transform: rotate(-10deg);
   -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
     filter: grayscale(70%);
@@ -388,7 +393,7 @@ filter: grayscale(70%);
 /* BANNER PROJECTS */
 
 .Banner-projects{  
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     display: flex;
     align-items: center;

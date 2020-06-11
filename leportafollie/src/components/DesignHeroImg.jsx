@@ -3,12 +3,15 @@ import React, { Component } from 'react';
 export default class DesignHeroImg extends Component {
   render() {
     return (
-        <>
-        <div className="HeroDiv">
+
+<>        <div className="HeroDiv Texth1">
+            {/* <section className="Texth1"> */}
+                <h1>My work</h1>
+            {/* </section> */}
+
             <div className="z-index">
             <div className="HeroImg1"></div>
-            <div className="HeroImg2 Texth1">
-            {/* <h1>Projects</h1> */}
+            <div className="HeroImg2">
             </div>
             <div className="HeroImg3"></div>
             <div className="HeroImg4"></div>

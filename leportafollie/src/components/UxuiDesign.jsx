@@ -10,7 +10,7 @@ export default class UxuiDesign extends Component {
           <DesignHeroImg/>
         <BannerUxuiDesign/>
         <div className="ProjectsContainer">
-          <UxuiDesignSection />
+          {/* <UxuiDesignSection /> */}
         </div>
       </div>
     )
