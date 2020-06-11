@@ -26,7 +26,7 @@ export default class SkillSection extends Component {
 
     return (
       <div className="skillSection">
-        <h2 style={{ padding: "2rem", marginBottom: "2rem", marginTop: "2rem" }} >SKILLS</h2>
+        <h2 style={{ padding: "2rem", marginBottom: "2rem", marginTop: "2rem" }} >Skills</h2>
         <div className="skillsDistro">
 
           {SkillsToRender.map((Skill, index) => {

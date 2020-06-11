@@ -1,51 +1,18 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import UxuiDesignSection from './UxuiDesignSection';
+import DesignHeroImg from './DesignHeroImg';
 
-class UxuiDesign extends Component {
-    constructor(props) {
-        super(props);
+export default class UxuiDesign extends Component {
+  render() {
+    return (
+      <div className="Main-projects-section-container">
+          <DesignHeroImg/>
 
-    }
-
-    componentWillMount() {
-
-    }
-
-    componentDidMount() {
-
-    }
-
-    componentWillReceiveProps(nextProps) {
-
-    }
-
-    shouldComponentUpdate(nextProps, nextState) {
-
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-
-    }
-
-    componentWillUnmount() {
-
-    }
-
-    render() {
-        return (
-            <div>
-
-            </div>
-        );
-    }
+        <div className="ProjectsContainer">
+          <UxuiDesignSection />
+        </div>
+      </div>
+    )
+  }
 }
 
-UxuiDesign.propTypes = {
-
-};
-
-export default UxuiDesign;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AnaImg from '../img/mephoto.JPG';
+import AnaImg from '../img/mephoto.png';
 import coffee from '../img/kophe.svg'
 import Banner from '../components/Banner';
 import SkillSection from '../components/SkillSection';
