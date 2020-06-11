@@ -12,12 +12,12 @@ class About extends Component {
         return (
 <>
                 <div className="AboutGeneralSection">
-                    <div className="FirstHalfWrap">
+                    <div className="FirstHalfWrap mediaqueriesdiv-halves ">
                         <div className="ThirdDiv">
                             <img className="avatar" src = {AnaImg} alt="Ana S." /> 
                         </div>
                     </div>
-                    <div className="SecondHalfWrap">
+                    <div className="SecondHalfWrap mediaqueriesdiv-halves">
                         <section className="ThirdDivText">
                         <p>I am a Front-End Developer and UX/UI Designer with five years of experience in the education technology space. I have seen firsthand how technology breaks down barriers and gives us all the opportunity to expand our knowledge and change our life regardless of our circumstances.</p>
                         <br></br>

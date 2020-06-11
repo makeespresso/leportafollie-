@@ -68,7 +68,15 @@ a:active {
 }
 
 #GeneralArea h1{
+  font-size: calc(12px + 3 * ((100vw - 320px)/ 680));
   font-family: 'Homemade Apple', cursive;
+  text-transform: capitalize;
+  font-size: 5em;
+  letter-spacing: 1rem;
+  margin-left: 28rem;
+  color: #DBA089;
+  z-index: 100;
+  position: relative;
 }
 
 .AboutGeneralSection{
@@ -98,8 +106,8 @@ justify-content: baseline; */
 }
 
 .ThirdDiv{
-  height: 60%;
-  width: 47%;
+  height: 80%;
+  width:65%;
 }
 .avatar{
   height: 100%;
@@ -427,3 +435,60 @@ font-size: 4rem;
 text-align: justify;
   /* background-color: red; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+
+#GeneralArea h1{
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  text-transform: capitalize;
+  letter-spacing: 1rem;
+  color: #DBA089;
+}
+.AboutGeneralSection{
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.mediaqueriesdiv-halves{
+  width: 100%;
+  height: auto
+}
+
+.FirstHalfWrap{
+  height: 100%;
+  width: 100%;
+}
+
+.ThirdDivText{
+  width: 80%;
+  height: 100%;
+  font-size: 1.2em;
+  margin-top: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem; 
+}
+
+}
+
