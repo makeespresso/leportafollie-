@@ -73,6 +73,7 @@ a:active {
 width: 100vw;
 height: 100vh;
 background-color: #6B7E75;
+/* background-color: #3E4435; */
 display: flex;
 /* justify-content: center;
 align-content: center;
@@ -233,9 +234,9 @@ letter-spacing: 2.3px;
 
 /* GENERAL MAIN PROJECTS SECTION*/
 .Main-projects-section-container{
-  background-color: blueviolet;
-  height: 100vh;
+  background-color: violet;
   width: 100vw;
+  height: auto;
 }
 
 .ProjectsContainer{
@@ -245,13 +246,13 @@ letter-spacing: 2.3px;
 }
 
 .DesignDistro{
-background-color: cornsilk;
+background-color: purple;
 height: auto;
 width: 90%;
 }
 
 .designContainer{
-  background-color: honeydew;
+  background-color: yellow;
   height: 60vh;
   width: 80%;
   border: 1px solid black;
@@ -265,15 +266,15 @@ width: 90%;
   width: 100vw;
   color:#FCFBF6;
   background-color: #3E4435;
+  /* background-color: #6B7E75; */
   display: flex;
   flex-direction:column;
-  /* align-items: flex-end; */
+  align-items: flex-end;
   position: relative;
   z-index:1;
 }
 
 .z-index{
-
   height: 100%;
   width: 100%;
   display: flex;
@@ -300,7 +301,7 @@ margin-top: 3rem;
 .HeroImg2{
 background-color: yellow;
 position: absolute;
-height: 60vh;
+height: 55vh;
 width:27vw;
 order:2;
 justify-content: center;
@@ -311,7 +312,7 @@ background-image: url('./img/HeroImg1.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 border: #FCFBF6 .5em solid;
-border-bottom: 5em solid #FCFBF6;
+border-bottom: 4em solid #FCFBF6;
 }
 
 .Texth1 h1{
@@ -334,4 +335,43 @@ background-repeat: no-repeat;
 border: #FCFBF6 .5em solid;
 border-bottom: 3em solid #FCFBF6;
 transform: rotate(20deg);
+}
+
+
+/* BANNER PROJECTS */
+
+.Banner-projects{  
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F8F2;
+}
+
+.Banner-projects-text{
+  height: 80%;
+  width: 90%;
+  /* background-color: rebeccapurple; */
+  border-bottom: 1px solid #262626;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Banner-projects-text h1{
+font-size: 4rem;
+}
+
+.Banner-projects-text span{
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+}
+
+.Banner-projects-text p{
+  width: 50%;
+text-align: justify;
+  /* background-color: red; */
 }
