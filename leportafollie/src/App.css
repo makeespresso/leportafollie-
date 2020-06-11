@@ -272,22 +272,33 @@ width: 90%;
   align-items: center;
   flex-direction:column;
   z-index:1; 
+  background-image: url('./img/rightpalms.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  /* background-position-y: top; */
+  /* background-position-x: left;  */
+  /* align-items: flex-end; */
+  /* position: relative; */
   /* align-items: flex-end; */
   /* position: relative; */
 }
 
 .z-index{
-  height: 90%;
+  height: 80%;
   width: 80%;
   display: flex;
   align-items: center;
   z-index: -0;
+  /* align-items: flex-end; */
   position: absolute;
   justify-content: space-evenly;
-  background-color: #5D5326;
+background: transparent;
+  /* align-items: flex-end; */
   border-top: 7px solid #F7F8F2;
   border-left: 7px solid #F7F8F2;
   border-right: 7px solid #F7F8F2;
+  box-shadow: 2px 2px 8px #262626;
   /* background-color: #3E4435; */
   /* background-image: url('./img/plant.png');
   background-repeat: no-repeat;
@@ -297,6 +308,7 @@ width: 90%;
   background-position-x: left; */
 }
 .HeroImg1{
+  
 background-color: red;
 height: 30vh;
 width: 15vw;
@@ -315,7 +327,7 @@ margin-top: 3rem;
 .HeroImg2{
 background-color: yellow;
 /* position: absolute; */
-height: 55vh;
+height: 50vh;
 width:27vw;
 order:2;
 justify-content: center;
