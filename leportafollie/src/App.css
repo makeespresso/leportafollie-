@@ -1,494 +1,506 @@
-*{
-  margin: 0;
-  bottom: 0;
-}
-.App {
-  text-align: center;
-  font-family: 'Cormorant Garamond', serif;  
-
-  /* font-size: calc(10px + 2vmin); */
-  /* font-family: 'Homemade Apple', cursive; */
-}
-
-#Navbar{
-  height: 4rem;
-  /* background-color: #E3F6F5; */
-  /* background-color: #F7F8F2; */
-  background: rgba(247, 248, 242, 0.08);
-  /* background: transparent; */
-  width: 100vw;
-  color: #262626;
-  display: flex;
-  text-align: center;
-  position: fixed;
-}
-
-#Links{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: calc(10px +1.5vmin);
-}
-
-a {
-  text-decoration: none;
-  line-height: normal;
-}
-a:visited {
-  color:  #262626;
-}
-a:hover {
-  color: #262626;
-  text-decoration: none;
-}
-a:active {
-  color:  #262626;
-  text-decoration: none;
-}
-
-
-/* HOME HOME HOME HOME */
-
-#GeneralArea{
-  height: 100vh;
-  width: 100vw;
-  background-color: #FFFFFB;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url('./img/palmShadow.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-position-x: center;
-  background-position-y: 100%;
-  background-blend-mode: darken;
-}
-
-#GeneralArea h1{
-  font-size: calc(12px + 3 * ((100vw - 320px)/ 680));
-  font-family: 'Homemade Apple', cursive;
-  text-transform: capitalize;
-  font-size: 5em;
-  letter-spacing: 1rem;
-  margin-left: 28rem;
-  color: #DBA089;
-  z-index: 100;
-  position: relative;
-}
-
-.AboutGeneralSection{
-width: 100vw;
-height: 100vh;
-/* background-color: #6B7E75; */
-background-color: #ACAB9B;
-/* background-color: #3E4435; */
-display: flex;
-/* justify-content: center;
-align-content: center;
-text-align: center;
-align-items: center;
-flex-direction: row;
-justify-content: space-evenly;
-justify-content: baseline; */
-}
-
-.FirstHalfWrap{
-  height: 100%;
-  width: 50%;
-  background-color: #FFFFFB;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.ThirdDiv{
-  height: 80%;
-  width:65%;
-}
-.avatar{
-  height: 100%;
-  width: 100%;
-}
-
-.SecondHalfWrap{
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  background-image: url('./img/plant.png');
-  background-repeat: no-repeat;
-}
-
-.ThirdDivText{
-  height: 60%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  font-size: calc(12px + 3 * ((100vw - 320px)/ 680));
-}
-
-.ThirdDivText p{
-color: #FFFFFB;
-font-size: 1em;
-letter-spacing: 2.3px;
-}
-
-.kophe{
-  height: 50%;
-  width: 50%;
-}
-
-  /* BANNER BANNER BANNER */
-
-  .Banner-quote {
-    font-family: 'Homemade Apple', cursive;
-    height: 30vh;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #B68B40;;
-  }
-  
-  .Banner-quote h2 {
-    font-weight: 800;
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-    letter-spacing: 3px;
-  }
-  
-/* SKILLS SKILLS SKILLS */
-
-.Mini-box {
-  height: 15vh;
-  width: 15vw;
-}
-
-.skillSection {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  padding-bottom: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.skillSection h2{
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-.skillsDistro {
-  width: 50%;
-  height: auto;
-  display: flex;
-  float: 1px;
-  flex-flow: row wrap;
-  flex: 1;
-  /* display: flex;
-  max-height: 15rem;
-  max-width: 50rem;
-  flex-flow: row wrap;
-  justify-content: center;
+        * {
+            margin: 0;
+            bottom: 0;
+            /* background-color: #F7F8F2; */
+        }
+        
+        .App {
+            /* font-size: calc(10px + 1.5vmin); */
+            /* font-size: calc(16px + 3 * ((100vw - 320px)/ 680)); */
+            font-family: 'Cormorant Garamond', serif;
+            color: #262626;
+            font-size: calc(10px + 1.3vmin);
+            /* font-size: 1.3vw; */
+            /* font-size: calc(16px + 3 * ((100vw - 320px)/ 680)); */
+            /* background-color: #F7F8F2; */
+            /* font-size: calc(10px + 2vmin); */
+            /* font-family: 'Homemade Apple', cursive; */
+        }
+        
+        .Top-navbar {
+            height: 10rem;
+            background-color: #F7F8F2;
+            width: 100vw;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .Top-navbar-content {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #F7F8F2;
+            width: 80%;
+            height: 90%;
+            border-bottom: .5px solid #262626;
+        }
+        
+        .flip {
+            transform: rotate(270deg);
+        }
+        
+        #Navbar {
+            height: 4rem;
+            background: rgba(247, 248, 242, 1);
+            width: 100vw;
+            display: flex;
+            text-align: center;
+            position: sticky;
+        }
+        
+        #Links {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: calc(10px +1.5vmin);
+        }
+        
+        a {
+            text-decoration: none;
+            line-height: normal;
+        }
+        
+        a:visited {
+            color: #262626;
+        }
+        
+        a:hover {
+            color: #262626;
+            text-decoration: none;
+        }
+        
+        a:active {
+            color: #262626;
+            text-decoration: none;
+        }
+        
+        .Banner-projects-text span {
+            text-transform: uppercase;
+            font-family: sans-serif;
+        }
+        
+        #Generalbackground {
+            background-color: #F7F8F2;
+            display: flex;
+            justify-content: center;
+        }
+        /* HOME HOME HOME HOME */
+        
+        #GeneralArea {
+            height: 100vh;
+            width: 100vw;
+            background-color: #F7F8F2;
+            background-image: url('./img/leftpalms-back.png');
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-image: url('./img/palmShadow.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-position-x: center;
+            background-position-y: 100%;
+            background-blend-mode: darken; */
+        }
+        /* ABOUT ABOUT ABOUT  */
+        /* ABOUT ABOUT ABOUT  */
+        /* ABOUT ABOUT ABOUT  */
+        /* ABOUT ABOUT ABOUT  */
+        /* ABOUT ABOUT ABOUT  */
+        
+        .AboutGeneralSection {
+            background-image: url('./img/leftpalms-back.png');
+            width: 80vw;
+            min-width: 300;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .kophe {
+            height: 10%;
+            width: 12%;
+            /* transform: rotate(20deg); */
+        }
+        /* BANNER BANNER BANNER */
+        
+        .Banner-quote {
+            height: 30vh;
+            width: 80vw;
+            background-image: url('./img/white-sand.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .Banner-quote h2 {
+            font-family: 'Homemade Apple', cursive;
+            font-size: calc(1.5em + 6 * ((100vw - 320px) / 680));
+            letter-spacing: 3px;
+        }
+        /* SKILLS SKILLS SKILLS */
+        
+        .Mini-box {
+            height: 15vh;
+            width: 15vw;
+        }
+        
+        .skillSection {
+            width: 80vw;
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            padding-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .skillSection h2 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        .skillsDistro {
+            width: 50%;
+            height: auto;
+            display: flex;
+            float: 1px;
+            flex-flow: row wrap;
+            flex: 1;
+            /* display: flex;
+max-height: 15rem;
+max-width: 50rem;
+flex-flow: row wrap;
+justify-content: center;
   align-content: space-between; */
-}
-
-.skillbox-style {
-  flex-grow: 1;
-  flex-basis: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  justify-content: flex-start;
-  padding-bottom: 1.6rem;
-}
-
-.skillbox-style svg {
-  flex: 5;
-}
-
-.skillbox-style small {
-  flex: 1;
-  font-weight: lighter;
-}
-
-.expressicon {
-  height: 10rem;
-  width: 10rem;
-}
-
-/* BANNER SPACING BANNER SPACING BANNER SPACING */
-.Banner-spacing {
-  font-family: 'Homemade Apple', cursive;
-  height: 30vh;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #B68B40;
-}
-
-/* GENERAL MAIN PROJECTS SECTION*/
-.Main-projects-section-container{
-  background-color: violet;
-  width: 100vw;
-  height: auto;
-}
-
-.ProjectsContainer{
-  background-color: blue;
-  height: auto;
-  width: 100vw;
-}
-
-.DesignDistro{
-background-color: purple;
-height: auto;
-width: 90%;
-}
-
-.designContainer{
-  background-color: yellow;
-  height: 60vh;
-  width: 80%;
-  border: 1px solid black;
-  margin-bottom: 3rem;
-}
-
-/* DESIGN HERO IMAGE */
-
-.HeroDiv{
-  height: 90vh;
-  width: 100vw;
-  color:#F7F8F2;
-  background-color: #3E4435;  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:column;
-  z-index:1; 
-  background-image: url('./img/rightpalms.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  /* background-position-y: top; */
-  /* background-position-x: left;  */
-  /* align-items: flex-end; */
-  /* position: relative; */
-  /* align-items: flex-end; */
-  /* position: relative; */
-}
-
-.z-index{
-  height: 80%;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  z-index: -0;
-  /* align-items: flex-end; */
-  position: absolute;
-  justify-content: space-evenly;
-background: transparent;
-  /* align-items: flex-end; */
-  border-top: 7px solid #F7F8F2;
-  border-left: 7px solid #F7F8F2;
-  border-right: 7px solid #F7F8F2;
-  box-shadow: 2px 2px 8px #262626;
-  /* background-color: #3E4435; */
-  /* background-image: url('./img/plant.png');
+        }
+        
+        .skillbox-style {
+            flex-grow: 1;
+            flex-basis: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content: flex-start;
+            padding-bottom: 1.6rem;
+        }
+        
+        .skillbox-style svg {
+            flex: 5;
+        }
+        
+        .skillbox-style small {
+            flex: 1;
+            font-weight: lighter;
+        }
+        
+        .expressicon {
+            height: 10rem;
+            width: 10rem;
+        }
+        /* BANNER SPACING BANNER SPACING BANNER SPACING */
+        
+        .Banner-spacing {
+            font-family: 'Homemade Apple', cursive;
+            height: 20vh;
+            width: 80vw;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('./img/white-sand.jpg');
+            background-attachment: fixed;
+        }
+        /* GENERAL MAIN PROJECTS SECTION*/
+        
+        .Main-projects-section-container {
+            background-color: violet;
+            width: 100vw;
+        }
+        
+        .ProjectsContainer {
+            background-color: blue;
+            height: auto;
+            width: 100vw;
+        }
+        
+        .DesignDistro {
+            background-color: purple;
+            height: auto;
+            width: 90%;
+        }
+        
+        .designContainer {
+            background-color: yellow;
+            height: 60vh;
+            width: 80%;
+            border: 1px solid black;
+            margin-bottom: 3rem;
+        }
+        /* DESIGN HERO IMAGE */
+        
+        .HeroDiv {
+            height: 90vh;
+            width: 100vw;
+            color: #F7F8F2;
+            background-color: #3E4435;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 1;
+            background-image: url('./img/beach.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: right; */
+            /* background-position-y: top; */
+            /* background-position-x: left;  */
+            /* align-items: flex-end; */
+            /* position: relative; */
+            /* align-items: flex-end; */
+            /* position: relative; */
+        }
+        
+        .z-index {
+            height: 80%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            z-index: -0;
+            /* align-items: flex-end; */
+            position: absolute;
+            justify-content: space-evenly;
+            background: transparent;
+            /* align-items: flex-end; */
+            border-top: 7px solid #F7F8F2;
+            border-left: 7px solid #F7F8F2;
+            border-right: 7px solid #F7F8F2;
+            box-shadow: 2px 2px 8px #262626;
+            /* background-color: #3E4435; */
+            /* background-image: url('./img/plant.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   background-position-y: top;
   background-position-x: left; */
-}
-.HeroImg1{
-  
-background-color: red;
-height: 30vh;
-width: 15vw;
-order:1;
-position: relative;
-background-image: url('./img/HeroImg4.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-border: #F7F8F2 1.3em solid;
-transform: rotate(-20deg);
-margin-top: 3rem;
--webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(70%);
-}
-
-.HeroImg2{
-background-color: yellow;
-/* position: absolute; */
-height: 50vh;
-width:27vw;
-order:2;
-justify-content: center;
-text-align: center;
-display: flex;
-align-items: center;
-background-image: url('./img/HeroImg1.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-border: #F7F8F2 1.3em solid;
--webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(70%);
-}
-
-.Texth1 h1{
-  text-transform: capitalize;
-  font-family: 'Homemade Apple', cursive;
-  font-size: 5em;
-  letter-spacing: 1rem;
-  margin-left: 28rem;
-  color: #DBA089;
-  z-index: 100;
-  position: relative;
-}
-
-.HeroImg3{
-background-color: green;
-height: 30vh;
-width:20vw;
-order:3;
-position: relative;
-margin-top: 13rem;
-background-image: url('./img/HeroImg2.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-border: #F7F8F2 1.3em solid;
-transform: rotate(20deg);
--webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-filter: grayscale(70%); 
-
-
-}
-
-.HeroImg4{
-  background-color: green;
-  height: 40vh;
-  width:20vw;
-  order:3;
-  position: relative;
-  margin-top: 13rem;
-  background-image: url('./img/HeroImg3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: #F7F8F2 1.3em solid;
-  transform: rotate(-10deg);
-  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(70%);
-  }
-
-
-/* BANNER PROJECTS */
-
-.Banner-projects{  
-    height: 65vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F7F8F2;
-}
-
-.Banner-projects-text{
-  height: 80%;
-  width: 90%;
-  /* background-color: rebeccapurple; */
-  border-bottom: 1px solid #262626;
-  display: flex;
-  flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.Banner-projects-text h1{
-font-size: 4rem;
-}
-
-.Banner-projects-text span{
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: sans-serif;
-}
-
-.Banner-projects-text p{
-  width: 50%;
-text-align: justify;
-  /* background-color: red; */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* MEDIA QUERIES */
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
-/* Styles */
-
-#GeneralArea h1{
-  margin: 0;
-  font-size: 2rem;
-  text-align: center;
-  font-family: 'Homemade Apple', cursive;
-  text-transform: capitalize;
-  letter-spacing: 1rem;
-  color: #DBA089;
-}
-.AboutGeneralSection{
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-  width: 100%;
-}
-
-.mediaqueriesdiv-halves{
-  width: 100%;
-  height: auto
-}
-
-.FirstHalfWrap{
-  height: 100%;
-  width: 100%;
-}
-
-.ThirdDivText{
-  width: 80%;
-  height: 100%;
-  font-size: 1.2em;
-  margin-top: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem; 
-}
-
-}
-
+        }
+        
+        .HeroImg1 {
+            background-color: red;
+            height: 30vh;
+            width: 15vw;
+            order: 1;
+            position: relative;
+            background-image: url('./img/HeroImg4.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: #F7F8F2 1.3em solid;
+            transform: rotate(-20deg);
+            margin-top: 3rem;
+            -webkit-filter: grayscale(80%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(70%);
+        }
+        
+        .HeroImg2 {
+            background-color: yellow;
+            /* position: absolute; */
+            height: 50vh;
+            width: 27vw;
+            order: 2;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            background-image: url('./img/HeroImg1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: #F7F8F2 1.3em solid;
+            -webkit-filter: grayscale(80%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(70%);
+        }
+        
+        .Texth1 h1 {
+            text-transform: capitalize;
+            font-family: 'Homemade Apple', cursive;
+            font-size: 5em;
+            letter-spacing: 1rem;
+            margin-left: 28rem;
+            color: #DBA089;
+            z-index: 100;
+            position: relative;
+        }
+        
+        .HeroImg3 {
+            background-color: green;
+            height: 30vh;
+            width: 20vw;
+            order: 3;
+            position: relative;
+            margin-top: 13rem;
+            background-image: url('./img/HeroImg2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: #F7F8F2 1.3em solid;
+            transform: rotate(20deg);
+            -webkit-filter: grayscale(80%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(70%);
+        }
+        
+        .HeroImg4 {
+            background-color: green;
+            height: 40vh;
+            width: 20vw;
+            order: 3;
+            position: relative;
+            margin-top: 13rem;
+            background-image: url('./img/HeroImg3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: #F7F8F2 1.3em solid;
+            transform: rotate(-10deg);
+            -webkit-filter: grayscale(80%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(70%);
+        }
+        
+        .Top-page-design {
+            height: 1.5vh;
+            width: 100vw;
+            background-image: url('./img/beach.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        /* BANNER PROJECTS */
+        
+        .Banner-projects {
+            height: 70vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F7F8F2;
+            min-width: 320px;
+            min-height: 369px;
+        }
+        
+        .Banner-projects-text {
+            height: auto;
+            width: 50%;
+            /* background-color: rebeccapurple; */
+            border-bottom: 1px solid #262626;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+            background-color: lightblue;
+            /* padding-bottom: 3em; */
+        }
+        /* TEST */
+        
+        .Flex-Area {
+            flex-direction: column-reverse;
+            background-color: aqua;
+        }
+        
+        .Div-to-flex {
+            background-color: red;
+            width: 100%;
+            height: 50%;
+        }
+        
+        .content-div {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            text-align: left;
+        }
+        
+        .content-div h1 span {
+            display: none;
+        }
+        
+        .content-div h1 {
+            font-size: 3rem;
+            line-height: 1em;
+        }
+        
+        .Div-flex {
+            height: 30vh;
+        }
+        
+        .Div-to-flex-white {
+            height: 90%;
+            width: 50%;
+            /* background-color:orange; */
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            align-items: center;
+        }
+        
+        .Div-flex {
+            display: flex;
+            flex-wrap: wrap;
+            height: 60vh;
+            width: 60vh;
+        }
+        
+        .shape {
+            height: 50%;
+            width: 50%;
+        }
+        
+        .grid1 {
+            background-color: red;
+            order: 1;
+        }
+        /* MEDIA QUERIES */
+        /* Smartphones (portrait and landscape) ----------- */
+        
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            /* Styles */
+            .FirstHalfWrap {
+                width: 100%;
+            }
+            .SecondHalfWrap {
+                width: 100%;
+            }
+            .FirstHalfWrap-img {
+                width: 100%;
+                height: 80%;
+            }
+            .SecondHalfWrap-text {
+                width: 95%;
+                height: 90%;
+            }
+            .Banner-projects-text {
+                width: 80%;
+            }
+            .Banner-projects {
+                background-color: red;
+            }
+        }

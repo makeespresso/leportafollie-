@@ -25,6 +25,7 @@ export default class SkillSection extends Component {
     ]
 
     return (
+      <div id="Generalbackground">
       <div className="skillSection">
         <h2 style={{ padding: "2rem", marginBottom: "2rem", marginTop: "2rem" }} >Skills</h2>
         <div className="skillsDistro">
@@ -37,6 +38,7 @@ export default class SkillSection extends Component {
             )
           })}
         </div>
+      </div>
       </div>
     )
   }

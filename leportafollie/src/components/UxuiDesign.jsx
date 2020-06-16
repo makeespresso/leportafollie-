@@ -2,17 +2,22 @@ import React, { Component } from 'react';
 import UxuiDesignSection from './UxuiDesignSection';
 import DesignHeroImg from './DesignHeroImg';
 import BannerUxuiDesign from '../components/BannerUxuiDesign';
+import BannerSpacing from '../components/BannerSpacing';
 
 export default class UxuiDesign extends Component {
   render() {
     return (
-      <div className="Main-projects-section-container">
+    <>
+      {/* <div className="Main-projects-section-container">
           <DesignHeroImg/>
         <BannerUxuiDesign/>
+        <BannerSpacing/>
         <div className="ProjectsContainer">
-          {/* <UxuiDesignSection /> */}
+          <UxuiDesignSection />
         </div>
       </div>
+      <BannerSpacing/> */}
+      </>
     )
   }
 }
