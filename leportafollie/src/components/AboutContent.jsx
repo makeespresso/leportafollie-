@@ -4,7 +4,8 @@ import palm from '../img/palm.png';
 
 export default function AboutContent() {
     return (
-
+<>
+</>
     )
 }
 
