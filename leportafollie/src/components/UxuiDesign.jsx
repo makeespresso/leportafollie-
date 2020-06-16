@@ -8,6 +8,9 @@ export default class UxuiDesign extends Component {
   render() {
     return (
     <>
+            <div className="AboutGeneralSection">
+        <p>something</p>
+        </div>
       {/* <div className="Main-projects-section-container">
           <DesignHeroImg/>
         <BannerUxuiDesign/>

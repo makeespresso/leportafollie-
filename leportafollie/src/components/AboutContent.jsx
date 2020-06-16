@@ -5,11 +5,15 @@ import palm from '../img/palm.png';
 export default function AboutContent() {
     return (
 
-        <div id="Generalbackground">
+    )
+}
+
+
+{/* <div id="Generalbackground">
 <div className="AboutGeneralSection"> 
 <div className="FirstHalfWrap">
 <div className="FirstHalfWrap-img">
-{/* <img className="avatar" src = {AnaImg} alt="Ana S." />  */}
+<img className="avatar" src = {AnaImg} alt="Ana S." /> 
 </div>
 </div>
 <div className="SecondHalfWrap">
@@ -25,6 +29,4 @@ export default function AboutContent() {
 </div>
 </div>
 </div>
-</div>
-    )
-}
+</div> */}
