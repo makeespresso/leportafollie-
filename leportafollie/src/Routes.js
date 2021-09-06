@@ -1,41 +1,24 @@
-// import React from 'react';
-// import { Switch, Route} from 'react-router-dom';
-// import Home from './components/Home';
-// import About from './components/About';
-// import UxuiDesign from './components/UxuiDesign';
-// import WebDevelopment from './components/WebDevelopment';
-// import Contact from './components/Contact';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Localsumer from "./components/Localsumer";
+import Xoespressobar from "./components/Xoespressobar";
+import Escogetusfotos from "./components/Escogetusfotos";
+import Flekora from "./components/Flekora";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
-// const Routes = () => {
-//     return (
-// <Switch>
-//     <Route exact path="/" component={Home}/>
-//     <Route exact path="/About" component={About}/>
-//     <Route exact path="/UxuiDesign" component={UxuiDesign}/>
-//     <Route exact path="/WebDevelopment" component={WebDevelopment}/>
-//     <Route exact path="/Contact" component={Contact}/>
-// </Switch>
-//     )
-// }
-
-// export default Routes
-
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Webdevelopment from './components/WebDevelopment';
-import UxuiDesign from './components/UxuiDesign';
-import Contact from './components/Contact';
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/About" component={About} />
-      <Route exact path="/Webdevelopment" component={Webdevelopment} />
-      <Route exact path="/UxuiDesign" component={UxuiDesign} />
-      <Route exact path="/Contact" component={Contact} />
+      <Route exact path="/" component={Home} />{" "}
+      <Route exact path="/projects/localsumer" component={Localsumer} />{" "}
+      <Route exact path="/projects/xoespressobar" component={Xoespressobar} />{" "}
+      <Route exact path="/projects/Escogetusfotos" component={Escogetusfotos} />{" "}
+      <Route exact path="/projects/Flekora" component={Flekora} />{" "}
+      <Route exact path="/About" component={About}/>{" "}
+      <Route exact path="/Projects" component={Projects} />{" "}
     </Switch>
-  )
-}
-export default Routes
+  );
+};
+export default Routes;

@@ -1,53 +1,35 @@
-import React, { Component } from 'react';
-import AnaImg from '../img/mephoto.JPG';
+import React, { Component } from "react";
 class Home extends Component {
-    render() {
-        return (
-            <div id="GeneralArea">
-<div className="Content-grid">
-    <div className="half-width style-left">
-        <div className="foto-style">
-    <img className="avatar" src = {AnaImg} alt="Ana S." /> 
-    </div>
-
-    </div>
-    <div className="half-width">
-    <div className="quarter-width bottom1 style-left style-fixes">
-    <h1>About</h1>
-    <p>I am a Front-End Developer and UX/UI Designer with five years of experience in the education technology space. I have seen firsthand how technology breaks down barriers and gives us all the opportunity to expand our knowledge and change our life regardless of our circumstances.</p>
-    </div>
-    <div className="quarter-width style-left">
-        <p>I speak Spanish, Italian, and English fluently and bring diversity, grit, and international experience to the table. I enjoy taking an idea from inception to implementation and strive to work with colleagues and companies that make products with humans in mind.</p>   
-
-    </div>
-    </div>
-
-
-</div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="home-about">
+        <div className="container-about">
+          <h1>
+            Hi, I am Ana <span>Silvia</span> and I’m a{" "}
+            <span>Digital Product Designer</span> that likes working with{" "}
+            <span>code</span> & co-founder of Localsumer an online platform to
+            support local commerce.
+          </h1>
+        </div>
+        <div className="container-about-bottom">
+          <p>
+            <a href="http://github.com/makeespresso" target="_blank">
+              Github
+            </a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/anasbenedict/" target="_blank">
+              LinkedIn
+            </a>
+          </p>
+          <p>
+            {" "}
+            <a href="mailto:anabenedict12@gmail.com">Email</a>
+          </p>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Home;
-
-
-
-// <div className="wrapper">
-// <article className="content">
-// <img className="avatar" src = {AnaImg} alt="Ana S." /> 
-
-// </article>
-
-// <div class="block-a">
-// <h1>About</h1>
-//   <span>Me</span>
-//   
-//   </div>
-// <div class="block-b">
-// <p>I speak Spanish, Italian, and English fluently and bring diversity, grit, and international experience to the table. I enjoy taking an idea from inception to implementation and strive to work with colleagues and companies that make products with humans in mind.</p>   
-
-// </div>
-
-
-//           </div>

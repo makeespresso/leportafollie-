@@ -1,251 +1,110 @@
-            * {
-                margin: 0;
-                bottom: 0;
-                background-color: #F7F8F2;
-            }
-            
-            .App {
-                font-family: 'Cormorant Garamond', serif;
-                color: #262626;
-                font-size: calc(10px + 1.3vmin);
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            #Links {
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-                font-size: calc(10px +1.5vmin);
-            }
-            
-            a {
-                text-decoration: none;
-                line-height: normal;
-            }
-            
-            a:visited {
-                color: #262626;
-            }
-            
-            a:hover {
-                color: #262626;
-                text-decoration: none;
-            }
-            
-            a:active {
-                color: #262626;
-                text-decoration: none;
-            }
-            
-            .Banner-projects-text span {
-                text-transform: uppercase;
-                font-family: sans-serif;
-            }
-            
-            #Generalbackground {
-                background-color: #F7F8F2;
-                display: flex;
-                justify-content: center;
-            }
-            /* HOME HOME HOME HOME */
-            /* HOME HOME HOME HOME */
-            /* HOME HOME HOME HOME */
-            /* HOME HOME HOME HOME */
-            /* HOME HOME HOME HOME */
-            /* ABOUT ABOUT ABOUT  */
-            /* ABOUT ABOUT ABOUT  */
-            /* ABOUT ABOUT ABOUT  */
-            /* ABOUT ABOUT ABOUT  */
-            /* ABOUT ABOUT ABOUT  */
-            
-            .Top-navbar {
-                height: 15rem;
-                /* background-color: #F4F2EF; */
-                /* background-color: aqua; */
-                width: 100vw;
-                text-align: center;
-                justify-content: center;
-                display: flex;
-                align-items: center;
-                justify-content: space-around;
-                border-top: 3px solid black;
-                border-bottom: double;
-            }
-            
-            .fixed-navar {
-                margin: 0;
-                top: 0;
-                z-index: 100;
-            }
-            
-            .kophe-div {
-                height: auto;
-                width: 10%;
-                object-fit: contain;
-            }
-            
-            .kophe {
-                height: 100%;
-                width: 100%;
-                /* transform: rotate(20deg); */
-            }
-            
-            .Top-navbar-content {
-                text-align: center;
-                justify-content: center;
-                display: flex;
-                align-items: center;
-                justify-content: space-around;
-                /* background-color: #F4F2EF; */
-                width: 80%;
-                height: 50%;
-            }
-            
-            .flip {
-                transform: rotate(270deg);
-            }
-            
-            #Navbar {
-                height: 4rem;
-                background: rgba(247, 248, 242, .5);
-                width: 100vw;
-                display: flex;
-                position: fixed;
-            }
-            /* ABOUT CONTENT */
-            /* ABOUT CONTENT */
-            /* ABOUT CONTENT */
-            /* ABOUT CONTENT */
-            /* ABOUT CONTENT */
-            
-            #GeneralArea {
-                width: 80vw;
-                height: 90vh;
-                background-color: sandybrown;
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-                align-items: center;
-                min-width: 320px;
-                flex-wrap: wrap;
-            }
-            
-            .Content-grid {
-                width: 80%;
-                height: 90%;
-                background-color: chartreuse;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .half-width {
-                width: 50%;
-                height: 100%;
-                background-color: chocolate;
-            }
-            
-            .quarter-width {
-                height: 50%;
-                width: 100%;
-                background-color: coral;
-                border-left: 1px solid #262626;
-            }
-            
-            .bottom1 {
-                border-bottom: 1px solid #262626;
-            }
-            
-            .foto-style {
-                object-fit: contain;
-                height: 80%;
-                width: 80%;
-                background-color: aqua;
-            }
-            
-            .avatar {
-                height: 100%;
-                width: 100%;
-            }
-            
-            .style-left {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .quarter-width p {
-                width: 80%;
-            }
-            
-            .half-width h1 {
-                margin-bottom: 1em;
-            }
-            /*         
-        .wrapper {
-            max-width: 80%;
-            height: 80%;
-            margin: 0 20px;
-            display: grid;
-            grid-gap: 10px;
-            background-color: blueviolet;
-        }
-        
-        .content {
-            grid-column: 2;
-            grid-row: 2 / 4;
-            background-color: blue;
-        }
-        
-        .block-a {
-            grid-column: 1;
-            grid-row: 2;
-            background-color: red;
-            float: left;
-            width: 30vw;
-        }
-        
-        .block-b {
-            grid-column: 1;
-            grid-row: 3;
-            background-color: yellow;
-        }
-        
-        
-        
-        .content-width {
-            width: 80%;
-            background-color: cadetblue;
-            height: 60%;
-            object-fit: contain;
-        }
-        
-        @supports (display: grid) {
-            .wrapper>* {
-                width: auto;
-                margin: 0;
-            }
-        } */
-            /* MEDIA QUERIES */
-            /* Smartphones (portrait and landscape) ----------- */
-            
-            @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-                /* Styles */
-                .Content-grid {
-                    flex-direction: column;
-                    width: 100%;
-                }
-                .half-width {
-                    width: 100%;
-                }
-                .quarter-width {
-                    width: 100%;
-                    background-color: blue;
-                    border-style: none;
-                    margin-bottom: .5rem;
-                }
-            }
+* {
+  margin: 0;
+  bottom: 0;
+}
+
+.App {
+  color: #100e0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efece2;
+  height: auto;
+  width: auto;
+  /* font-size: calc(10px + 1.3vmin); */
+  /* font-size: calc(16px + 6 * ((100vw - 320px) / 680)); */
+}
+.header-logo {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo span {
+  color: #c80105;
+  font-family: "DM Serif Text", serif;
+  font-size: 3vmax;
+}
+
+.home-about {
+  height: 100vh;
+  width: calc(80vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Serif Text", serif;
+}
+
+.container-about {
+  width: calc(60vw);
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6vmax;
+  border-top: 2px solid black;
+}
+
+.container-about-bottom{
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.container-about span {
+  color: #c80105;
+  font-family: "DM Serif Text", serif;
+  font-size: 3vmax;
+}
+/* NAVBAR */
+
+.Navbarwidth {
+  background-color: greenyellow;
+  height: 14vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#Navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+#Links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px +1.5vmin);
+}
+
+a {
+  text-decoration: none;
+  line-height: normal;
+  color: #262626;
+}
+
+a:visited {
+  color: #262626;
+}
+
+a:hover {
+  color: #262626;
+  text-decoration: none;
+}
+
+a:active {
+  color: #262626;
+  text-decoration: none;
+}
+
+
+p:hover{
+font-weight: 600    ;
+}

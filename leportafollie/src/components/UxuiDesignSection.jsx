@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import DesignBox from './DesignBox';
+import imagen from '../img/amarillo.png';
 
 export default class UxuiDesignSection extends Component {
   render() {
     let DesignsToRender = [
-      { cathegory: "UX/UI Design", title: "WhiteStone", header: "E-commerce", description: "UX/UI Designers + Web Developers collaboration" },
-     ]
+      {  cathegory: "UX/UI Design", title: "WhiteStone", header: "E-commerce", description: "UX/UI Designers + Web Developers collaboration" },
+      {  cathegory: "UX/UI Design", title: "WhiteStone", header: "E-commerce", description: "UX/UI Designers + Web Developers collaboration" },
+    ]
 
     return (
       // <div className="webdevSection">
