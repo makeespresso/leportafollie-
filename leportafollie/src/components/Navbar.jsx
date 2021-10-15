@@ -11,10 +11,10 @@ export default class Navbar extends Component {
             <img className="logo" src={logo} alt="Logo" />
           </div>
         </Link>
-        <Link to="/about">
-          <p>ana silvia</p>
-        </Link>
-        <p>+ info </p>
+
+          <h2><a href="https://www.linkedin.com/in/anasbenedict/" target="_blanks">ana silvia</a></h2>
+
+        <p><a href="https://github.com/makeespresso" target="_blank">Github</a></p>
       </div>
     );
   }
