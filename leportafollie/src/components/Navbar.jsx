@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/asbLogo.svg";
 
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="Navbarwidth">
-      <div id="Navbar">
-        <section id="Links">
-          <Link to="/projects/localsumer"><p>Localsumer</p></Link>
-          <Link to="/projects/xoespressobar"><p>XO Espresso Bar</p></Link>
-          <Link to="/projects/Escogetusfotos"><p>Escoge Tus Fotos</p></Link>
-          <Link to="/projects/Flekora"><p>Flekora</p></Link>
-        </section>
+      <div className="NavbarContent">
+        <Link to="/">
+          <div className="asbLogo">
+            <img className="logo" src={logo} alt="Logo" />
+          </div>
+        </Link>
+        <Link to="/about">
+          <p>ana silvia</p>
+        </Link>
+        <p>+ info </p>
       </div>
-      </div>
-    )
+    );
   }
 }
